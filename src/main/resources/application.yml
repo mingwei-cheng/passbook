@@ -8,9 +8,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://cmw.ciehxtfrezec.ap-southeast-1.rds.amazonaws.com:3306/password?characterEncoding=utf-8
-    username: root
-    password: cmw96920123
+    url: jdbc:mysql://xxxxxxxx:3306/password?characterEncoding=utf-8
+    username: xxxxxx
+    password: xxxxxx
 
 pagehelper:
   helper-dialect: mysql
