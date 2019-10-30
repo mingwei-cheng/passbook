@@ -1,0 +1,24 @@
+server:
+  port: 18888
+
+
+spring:
+  application:
+    name: password
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://cmw.ciehxtfrezec.ap-southeast-1.rds.amazonaws.com:3306/password?characterEncoding=utf-8
+    username: root
+    password: cmw96920123
+
+pagehelper:
+  helper-dialect: mysql
+  params: count=countSql
+  reasonable: true
+  support-methods-arguments: true
+
+mybatis:
+  type-aliases-package: cn.cmw.pass.entity
+  mapper-locations: classpath:cn/cmw/pass/mapper/*.xml
+  check-config-location: true
